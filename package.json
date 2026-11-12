@@ -1,0 +1,9 @@
+{
+	"name": "diffony",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "bun scripts/build.ts showcase/zinn.html showcase/zinn.json dist/zinn.html",
+		"smoke": "bun run build && bun scripts/smoke.ts dist/zinn.html"
+	}
+}
